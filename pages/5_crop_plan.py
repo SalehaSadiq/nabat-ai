@@ -4,7 +4,6 @@ from typing import Any
 
 import streamlit as st
 
-from services.llm import require_api_key
 from utils.formatting import pkr
 
 
