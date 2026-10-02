@@ -12,3 +12,25 @@ st.json({"profile":st.session_state.get("profile"),"assessment":a,"confirmed_val
 decision=st.radio("Decision",["Approve","Modify","Reject","Request additional evidence"]); note=st.text_area("Expert note")
 if st.button("Save expert review",type="primary"):
     st.session_state.expert_review={"decision":decision,"note":note}; st.success("Saved in this session only.")
+if decision == "Modify":
+
+    modified_recommendation = st.text_area(
+        "Revised recommendation",
+        value=current_recommendation,
+    )
+
+    additional_test = st.text_input(
+        "Additional evidence/test required"
+    )
+
+    revised_cost = st.number_input(
+        "Revised estimated cost (PKR)",
+        min_value=0,
+    )
+st.session_state["expert_review"] = {
+    "decision": decision,
+    "note": expert_note,
+    "modified_recommendation": modified_recommendation,
+    "additional_test": additional_test,
+    "revised_cost_pkr": revised_cost,
+}    
