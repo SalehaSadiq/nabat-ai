@@ -1,0 +1,7 @@
+[
+ {"name":"Wheat","stages":["Seedling","Tillering","Stem elongation","Heading","Grain filling"]},
+ {"name":"Tomato","stages":["Seedling","Vegetative","Flowering","Fruit set","Harvest"]},
+ {"name":"Potato","stages":["Emergence","Vegetative","Tuber initiation","Bulking","Maturity"]},
+ {"name":"Chilli","stages":["Seedling","Vegetative","Flowering","Fruit set","Harvest"]},
+ {"name":"Citrus","stages":["Vegetative flush","Flowering","Fruit set","Fruit development","Harvest"]}
+]

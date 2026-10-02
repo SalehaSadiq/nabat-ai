@@ -1,0 +1,6 @@
+[
+ {"name":"Disease-free planting material","crops":["Potato","Citrus"],"use":"Reduce planting-material-borne disease risk where certified systems exist."},
+ {"name":"ELISA/PCR diagnostics","crops":["Tomato","Potato","Chilli","Citrus"],"use":"Confirm selected pathogens when results would change management."},
+ {"name":"Tissue-culture-derived clean material","crops":["Potato"],"use":"Relevant in formal clean-seed multiplication systems, not a universal farm treatment."},
+ {"name":"Resistant/tolerant varieties","crops":["Wheat","Tomato","Potato","Chilli","Citrus"],"use":"Long-term prevention when locally adapted and supported by evidence."}
+]

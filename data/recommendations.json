@@ -1,0 +1,5 @@
+[
+ {"id":"observe-first","crops":["Wheat","Tomato","Potato","Chilli","Citrus"],"action":"Document symptom distribution, irrigation status, recent inputs and root condition before buying treatment.","risk":"GREEN"},
+ {"id":"soil-evidence","crops":["Wheat","Tomato","Potato","Chilli","Citrus"],"action":"Use soil evidence when nutrient availability, pH or salinity is plausible.","risk":"GREEN"},
+ {"id":"virus-confirm","crops":["Tomato","Potato","Chilli","Citrus"],"action":"Seek qualified confirmation before high-impact action for suspected viral disease.","risk":"RED"}
+]
